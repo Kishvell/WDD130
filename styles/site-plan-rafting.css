@@ -57,8 +57,3 @@
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }  
-
-  img {
-    max-width: 200px;
-    max-height: auto;
-  }
