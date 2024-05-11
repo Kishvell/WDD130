@@ -53,12 +53,16 @@ body main .hero img {
 
 body main .hero h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   position: absolute;
-  top: 20%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+body main .hero .Happy {
+  height: 250px;
 }
 
 body main section img {
@@ -78,6 +82,11 @@ h1, h2, h3, h4, h5, h6 {
 h2, h3 {
   margin: 10px 10px 10px 10px;
   border-bottom: 1px solid steelblue;
+  font-size: 20px;
+}
+
+h7 {
+  color: var(--primary-color);
 }
 
 p {
