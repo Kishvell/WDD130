@@ -26,13 +26,14 @@ body .grid img {
   box-shadow: 0 0 30px #333;
   float: left;
   position: absolute;
-  margin: 0px 0px 0px 100px;
+  margin: 10px 0px 0px 200px;
 }
 
 body .grid .flex {
-  display: flex;
-  justify-content: space-evenly;
+  display:flex;
   align-content: center;
+  float: center;
+  margin: 0px 100px 0px 400px;
 }
 
 body .grid .flex a {
@@ -41,7 +42,10 @@ body .grid .flex a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff;
+  color: steelblue;
+  background-color: aquamarine;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 30px 0px 0px 0px;
 }
 
 body main .hero {
