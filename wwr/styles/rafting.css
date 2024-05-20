@@ -100,7 +100,7 @@ body main .Adventure img {
   align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   color: var(--primary-color);
   text-align: center;
 }
@@ -111,8 +111,9 @@ h2, h3 {
   font-size: 20px;
 }
 
-h7 {
+h6 {
   color: var(--primary-color);
+  font-size: 20px;
 }
 
 p {
