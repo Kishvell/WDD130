@@ -42,9 +42,7 @@ body .grid .flex a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: steelblue;
-  background-color: aquamarine;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: white;
   margin: 30px 0px 0px 0px;
 }
 
