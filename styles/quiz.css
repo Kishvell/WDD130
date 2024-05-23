@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --primary-color: #3366cc;
+  --secondary-color: #ff9933;
+  --text-color: #333333;
+}
+
+body {
+    display: block;
+    max-width: 840px;
+    min-height: 0px;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+body footer {
+  text-align: center;
+  background-color: white;
+}
