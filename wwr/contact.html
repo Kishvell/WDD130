@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="grid">
+        <img src="images/logo.jpg">
+        <nav class="flex">
+            <a href="/https://kishvell.github.io/wdd130/">Home</a>
+            <a href="https://kishvell.github.io/wdd130/wwr/about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Company Information</h2>
+            <p>Address: 4906 Tree Frog Lane, Amazonia, Missouri (MO), 64421</p>
+            <p>Phone: 816-475-7242</p>
+            <p>Email: contact@RaftingTheRealAdventure.com</p>
+            <img src="images/Maps.png">
+        </section>
+
+        <section>
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p>Caption: Title of Employee 1</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p>Caption: Title of Employee 2</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p>Caption: Title of Employee 3</p>
+            </div>
+        </section>
+
+        <!--25/5/2024-->
+
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <form action="/submit_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                    
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age"><br><br>
+                    
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                    
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                    
+                <label for="subscribe">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+                    
+                <label for="birthdate">Birthdate:</label><br>
+                <input type="date" id="birthdate" name="birthdate"><br><br>
+                    
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2023 The Real Adventure | Created by Santiago Benjamín Irigoyen</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="/images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="/images/Twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="/images/Instagram.jpg" alt="Instagram">
+            </a>
+    </footer>
+</body>
+
+</html>

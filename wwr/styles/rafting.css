@@ -76,6 +76,14 @@ body main section {
   text-align: center;
 }
 
+body main section img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eee;
+  text-align: center;
+  align-items: center;
+}
+
 body main .History {
   background-color: #eee;
   padding: 5px;
@@ -96,6 +104,20 @@ body main .Adventure img {
   border: 1px solid #eee;
   text-align: center;
   align-items: center;
+}
+
+.employee {
+  display: inline-block;
+  margin: 10px;
+}
+
+.employee img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.employee p {
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -120,6 +142,40 @@ p {
 
 a {
   text-decoration: none;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+form input, form textarea {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 body footer {
