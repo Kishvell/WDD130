@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact The Real Adventure</title>
+    <meta name="description" content="Santiago Benjamín Irigoyen | Web Fundamentals | Introduction">
+    <meta name="author" content="Santiago Benjamín Irigoyen">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -12,7 +14,7 @@
     <header class="grid">
         <img src="images/logo.jpg">
         <nav class="flex">
-            <a href="/https://kishvell.github.io/wdd130/">Home</a>
+            <a href="index.html">Home</a>
             <a href="https://kishvell.github.io/wdd130/wwr/about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="#">Contact</a>
@@ -20,12 +22,14 @@
     </header>
 
     <main>
+        <h1>Contact "The Real Adventure"</h1>
+        <p class="claryfication">This page's not an emergency contact</p>
         <section>
             <h2>Company Information</h2>
             <p>Address: 4906 Tree Frog Lane, Amazonia, Missouri (MO), 64421</p>
             <p>Phone: 816-475-7242</p>
             <p>Email: contact@RaftingTheRealAdventure.com</p>
-            <img src="images/Maps.png">
+            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=https://www.bing.com/maps?mepi=24%257E%257ETopOfPage%257ELargeMapLink&ty=18&q=Amazonia%252C+Missouri%252C+United+States&satid=id.sid%253A59a77e39-bddb-1fc4-cf6e-b1b3ea55552f&vdpid=5092836761176899585&mb=39.897579%257E-94.90004%257E39.883942%257E-94.883263&ppois=39.89076042175293_-94.89165115356445_Amazonia%252C+Missouri%252C+United+States_%257E&v=2&sV=1&FORM=MIRE&qpvt=Embedded+Google+Map%253A+Address%253A+4906+Tree+Frog+Lane%252C+Amazonia%252C+Missouri+%2528MO%2529%252C+64421&cp=39.890761%257E-94.891651&lvl=15.3&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </section>
 
         <section>
@@ -63,18 +67,20 @@
                 <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
                     
                 <label for="gender">Gender:</label><br>
-                <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br><br>
+                <label for="I don't want to mention it">Other?</label>
+                <input type="radio" id="Don't wanna say" name="gender" value="none"></label><br><br>
                     
                 <label for="subscribe">Subscribe to Newsletter:</label>
                 <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
                     
                 <label for="birthdate">Birthdate:</label><br>
                 <input type="date" id="birthdate" name="birthdate"><br><br>
-                    
-                <input type="submit" value="Submit">
+                
+                <button type="submit" value="Submit">Submit</button>
             </form>
         </section>
     </main>

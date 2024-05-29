@@ -93,17 +93,15 @@ body main .History {
 
 body main .Adventure {
   background-color: #eee;
-  padding: 5px;
+  padding: 1px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 5px;
+  margin: 1px;
 }
 
 body main .Adventure img {
   width: 150px;
   height: 300px;
   border: 1px solid #eee;
-  text-align: center;
-  align-items: center;
 }
 
 .employee {
@@ -165,7 +163,7 @@ form input[type="checkbox"] {
   margin-right: 10px;
 }
 
-form input[type="submit"] {
+form button[type="submit"] {
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -197,4 +195,15 @@ body footer .sociallinks a img {
   width: 40px;
   height: 35px;
   margin: 0px 100px 0px 0px;
+}
+
+iframe {
+  width: 450px;
+  height: 250px;
+}
+
+body main .claryfication {
+  text-align: center;
+  font-size: 10px;
+  margin: 0px 0px 100px 10px;
 }
