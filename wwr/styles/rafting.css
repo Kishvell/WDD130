@@ -31,8 +31,6 @@ body .grid img {
 
 body .grid .flex {
   display:flex;
-  align-content: center;
-  float: center;
   margin: 0px 100px 0px 400px;
 }
 
@@ -206,4 +204,56 @@ body main .claryfication {
   text-align: center;
   font-size: 10px;
   margin: 0px 0px 100px 10px;
+}
+
+/* Additions for Home page styling */
+
+.hero {
+  text-align: center;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #eee;
+  padding: 1px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+body main .friend {
+  position: relative;
+}
+
+body main .friend img {
+  display: block;
+  float: right;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body main .friend h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 80px 10px 10px 10px;
 }
